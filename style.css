@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Main;
+  src: url(Fonts/Clickuper.ttf);
+}
+
+@font-face {
+  font-family: lesserFont;
+  src: url(Fonts/mania.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: url("IMG/Gradiant.png");
+    display: flex;
+}
+
+header img {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-top: auto; margin-bottom: auto;
+    color: white;
+    font-family: Main;
+    font-size: 50px;
+}
+header h1 span {
+    font-family: lesserFont;
+    font-size: 40px;
+}
+
+main {
+    margin: auto; margin-top: 60px;
+    width: 1200px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+main div.discordbutton {
+    background-color: #0168CF;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+main div.discordbutton a {
+    text-decoration: none;
+    display: -webkit-box;
+    color: white;
+
+}
+main div.discordbutton a img {
+    margin-right: 10px;
+}
+main div.discordbutton a p {
+    font-family: lesserFont;
+    font-size: 20px;
+    margin-top: auto; margin-bottom: auto;
+}
+
+main div.discordbutton:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+main div.discordbutton:active {
+    transition: 0.3s;
+    transform: scale(0.7);
+    background-color: #0080FF;
+}
+
+main div.itchiobutton {
+    background-color: #40474e;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+main div.itchiobutton a {
+    text-decoration: none;
+    display: -webkit-box;
+    color: white;
+
+}
+main div.itchiobutton a img {
+    margin-right: 10px;
+}
+main div.itchiobutton a p {
+    font-family: lesserFont;
+    font-size: 20px;
+    margin-top: auto; margin-bottom: auto;
+}
+
+main div.itchiobutton:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+main div.itchiobutton:active {
+    transition: 0.3s;
+    transform: scale(0.7);
+    background-color: #505457;
+}
