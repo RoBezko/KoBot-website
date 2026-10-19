@@ -72,6 +72,37 @@ main div.discordbutton:active {
     background-color: #0080FF;
 }
 
+main div.bskybutton {
+    background-color: #678baf;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+main div.bskybutton a {
+    text-decoration: none;
+    display: -webkit-box;
+    color: white;
+
+}
+main div.bskybutton a img {
+    margin-right: 10px;
+}
+main div.bskybutton a p {
+    font-family: lesserFont;
+    font-size: 20px;
+    margin-top: auto; margin-bottom: auto;
+}
+
+main div.bskybutton:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+main div.bskybutton:active {
+    transition: 0.3s;
+    transform: scale(0.7);
+    background-color: rgb(174, 201, 221);
+}
+
 main div.itchiobutton {
     background-color: #40474e;
     border-radius: 10px;
